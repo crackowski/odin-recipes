@@ -1,0 +1,32 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* border: 1px solid black; */
+} 
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: left;
+}
+
+.home-links li {
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+}
+ol li {
+    text-align: left;
+    padding: 5px;
+}
+.link {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    border: 1px solid black;
+    padding: 7px;
+}
+p {
+    font-size: 18px;
+    text-align: left;
+    line-height: 22.5px;
+}
