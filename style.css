@@ -1,6 +1,22 @@
+@font-face {
+    font-family: 'Norse Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Norse Regular'), url('Norse.woff') format('woff');
+    }
+    
+
+@font-face {
+    font-family: 'Norse Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Norse Bold'), url('Norsebold.woff') format('woff');
+    }
+
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     /* border: 1px solid black; */
+    box-sizing: border-box;
 } 
 h1 {
     text-align: center;
@@ -8,25 +24,64 @@ h1 {
 h2 {
     text-align: left;
 }
-
-.home-links li {
-    list-style: none;
-    text-align: center;
-    padding: 10px;
-}
 ol li {
     text-align: left;
     padding: 5px;
 }
-.link {
-    text-decoration: none;
-    font-size: 20px;
-    color: black;
-    border: 1px solid black;
-    padding: 7px;
-}
+
 p {
     font-size: 18px;
     text-align: left;
     line-height: 22.5px;
+}
+body {
+    background-color: #7A4419;
+}
+
+.home-title {
+    font-size: 40px;
+    font-family: 'Norse Bold';
+    color: white;
+    letter-spacing: 5px;
+}
+.link {
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    background-color: #755C1B;
+    border: 1px solid #755C1B;
+    padding: 6px 18px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 30px;
+    font-weight: 50;
+    letter-spacing: 1px;
+
+    
+}
+.container {
+    height: 700px;
+    margin: 5px;
+    text-align: center;
+}
+
+.image {
+    display: inline-block;
+    margin-right: 10px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    opacity: 80%;
+    width: 30%;
+    height: 100%;
+
+}
+
+.pizza {
+    background-image: url(./img/pizza.jpg);
+}
+.burger {
+    background-image: url(./img/burger.jpg);
+}
+.steak {
+    background-image: url(./img/steak.jpg);
 }
